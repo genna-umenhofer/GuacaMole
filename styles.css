@@ -1,0 +1,49 @@
+body {
+  background-color: darkslateblue;
+}
+
+h1 {
+  color: aquamarine;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  background-color: rgb(36, 25, 107);
+  border-style: solid;
+  border-color: aquamarine;
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+  margin: 2% 5% 1% 5%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topic {
+  background-color:azure;
+  width: 100%;
+  height: auto;
+  margin: 2% 5% 1% 5%;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+}
+
+.topic:hover {
+  background-color:rgb(186, 255, 232);
+  transform: scale(1.1);
+}
+
+@media only screen and (min-width: 600px) {
+  .topic {
+    width: 33%;
+    margin: 2% 8% 1% 8%;
+  }
+}
