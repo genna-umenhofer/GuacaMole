@@ -16,6 +16,10 @@ h4 {
   margin: 5% 0 0 0;
 }
 
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 header, footer {
   background-color: rgb(36, 25, 107);
   border-style: solid;
@@ -65,10 +69,58 @@ header, footer {
   width: 100%;
   height: auto;
   margin: 2% 5% 1% 5%;
-  padding: 0 0 3% 0;
-  text-align: center;
+  padding: 0 10% 3% 10%;
   border-radius: 5px;
   box-shadow: 5px 5px;
+  text-align: center;
+}
+
+label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+  text-align: center;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+  background-color:rgb(185, 255, 246);
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+  width: 45%;
+  margin: 2%;
+  padding: 2%;
+  align-self: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 @media only screen and (min-width: 600px) {
