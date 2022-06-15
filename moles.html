@@ -20,7 +20,8 @@
 
   <main class="container">
     <div class="calculator">
-      <p>Use this calculator to figure out how many grams, moles, or particles are in a sample. Enter the known values, then press Enter to calculate. Press r to reset the calculator.</p>
+
+      <p>Use this calculator to figure out how many grams, moles, or particles are in a sample.</p>
       
       <div>
         <label for="molar-mass1">What is the molar mass?</label><br>
@@ -31,8 +32,11 @@
         <input type="number" id="moles1"><br><br>
         <label for="moles">How many particles?</label><br>
         <input type="number" id="particles"><br><br>
+        <button id="moleCalc" onclick="gramsToMole()">Calculate</button>
+        <button id="moleClear" onclick="clearMoleCalc()">Clear</button>
       </div>
 
+    </div>
   </main>
 
   <footer>
@@ -46,4 +50,5 @@
 </body>
 
 <script src="script.js"></script>
+<script src="moleCalc.js"></script>
 </html>
