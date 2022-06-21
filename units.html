@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Units | GuacaMole</title>
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <a href="" class="other-link">
+        <h1>Units</h1>
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="calculator">
+
+      <p>Use this calculator to figure out how one measurement converts to another.</p>
+      <hr>
+      <p><u>Scientific Notation</u><br> Use the letter 'e' as in 6.022e23 for 6.022 x 10<sup>23</sup>!</p>
+      <p><u>Shortcuts</u> <br>Press 'enter' to calculate and 'r' to clear!</p>
+      <hr>
+      <br>
+
+      <div>
+        <label for="mega">Mega-</label><br>
+        <input type="number" id="mega"><br><br>
+        <label for="kilo">Kilo-</label><br>
+        <input type="number" id="kilo"><br><br>
+        <label for="hecto">Hecto-</label><br>
+        <input type="number" id="hecto"><br><br>
+        <label for="deca">Deca- / Deka-</label><br>
+        <input type="number" id="deca"><br><br>
+        <label for="unit">Unit</label><br>
+        <input type="number" id="unit"><br><br>
+        <label for="deci">Deci-</label><br>
+        <input type="number" id="deci"><br><br>
+        <label for="centi">Centi-</label><br>
+        <input type="number" id="centi"><br><br>
+        <label for="milli">Milli-</label><br>
+        <input type="number" id="milli"><br><br>
+        <label for="micro">Micro-</label><br>
+        <input type="number" id="micro"><br><br>
+        <button id="unitsCalc" onclick="unitsCalc()">Calculate</button>
+        <button id="unitsClear" onclick="clearUnitsCalc()">Clear</button>
+      </div>
+      
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <a href="index.html" class="other-link">
+        <h1>Back to GuacaMole</h1>
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+<script src="script.js"></script>
+<script src="unitsCalc.js"></script>
+</html>
